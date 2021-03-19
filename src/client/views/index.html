@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Article Analysis</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+               Test an article's emotion
+            </h1>
+        </header>
+
+        <main>
+            <section id="sectionOne">
+                <p id ="urlHeader">Enter an article's URL below</p>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="test-url" type="text" name="input" value="" placeholder="Enter URL here">
+                    <input id= "btn" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            </section>
+
+            <section id = "sectionTwo">
+                <strong>Form Results:</strong>
+                <div id="confidence"></div>
+                <div id="subjectivity"></div>
+                <div id="polarity"></div>
+                <div id="irony"></div>
+                <div id="agreement"></div>
+            </section>
+        </main>
+
+    </body>
+</html>
